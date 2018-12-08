@@ -1,11 +1,23 @@
 .landing-block {
-  width: 100vw;
   height: 100vh;
-  background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #fdbb2d, #22c1c3);
   background-size: 1000% 1000%;
-  -webkit-animation: Gradient 25s ease infinite;
-  -moz-animation: Gradient 25s ease infinite;
-  animation: Gradient 25s ease infinite;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+
+  .intro-block {
+
+    .position {
+      font-size: 1.5rem;
+    }
+
+    .skills i {
+      font-size: 2rem;
+      color: #000000;
+      padding: 0 0.3rem;
+    }
+  }
 }
 
 @-webkit-keyframes Gradient {
@@ -24,12 +36,4 @@
   0% { background-position: 0% 50% }
   50% { background-position: 100% 50% }
   100% { background-position: 0% 50% }
-}
-
-h1 {
-  display: flex;
-  height: 100vh;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
 }
