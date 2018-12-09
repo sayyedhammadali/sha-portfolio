@@ -1,4 +1,5 @@
 import React from 'react';
+import './Typing.scss';
 import TypingAnimation from 'react-typing-animation';
 
 const Typing = (props) => {
@@ -15,8 +16,9 @@ const Typing = (props) => {
   })
 
   return (
-    <div id="typing" className="mt-4">
+    <div id="typing">
       <TypingAnimation speed={30} loop={true}>
+        <div className="hide">.</div>
         {content}
       </TypingAnimation>
     </div>

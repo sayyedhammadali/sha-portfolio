@@ -13,25 +13,23 @@ class Landing extends Component {
           <div className="col-sm-12">
             <div className="intro-block text-center">
 
-              <div className="headline display-4">
+              <h1 className="headline pb-2 font-weight-light">
                 <Typing words={typing}/>
-              </div>
-
-              <div className="position mb-5 text-capitalize">
+              </h1>
+              <h5 className="position pb-5 text-capitalize font-weight-bolder">
                 full stack developer
-              </div>
-
-              <div className="skills">
-                <i className="fab fa-html5"> | </i>
-                <i className="fab fa-drupal"> | </i>
-                <i className="fab fa-npm"> | </i>
-                <i className="fab fa-node"> | </i>
-                <i className="fab fa-react"> | </i>
-                <i className="fab fa-linux"> | </i>
-                <i className="fab fa-css3-alt"> | </i>
-                <i className="fab fa-php"> | </i>
-                <i className="fas fa-code-branch"></i>
-              </div>
+              </h5>
+              <h3 className="skills">
+                <i className="fab fa-html5 px-2"></i>
+                <i className="fab fa-drupal px-2"></i>
+                <i className="fab fa-npm px-2"></i>
+                <i className="fab fa-node px-2"></i>
+                <i className="fab fa-react px-2"></i>
+                <i className="fab fa-linux px-2"></i>
+                <i className="fab fa-css3-alt px-2"></i>
+                <i className="fab fa-php px-2"></i>
+                <i className="fas fa-code-branch px-2"></i>
+              </h3>
 
             </div>
           </div>
