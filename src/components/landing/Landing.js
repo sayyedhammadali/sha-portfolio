@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
 import './Landing.scss';
 
+import Typing from '../typing/Typing';
+
 class Landing extends Component {
   render() {
+    const typing = ['Looking for a Web Expert?', 'Hello, I\'m Hammad!', 'I can help you to find sustainable solutions.'];
+
     return (
       <div className="container-fluid" id="landing">
         <div className="row h-100 align-items-center">
@@ -10,7 +14,7 @@ class Landing extends Component {
             <div className="intro-block text-center">
 
               <div className="headline display-4">
-                Hello, I'm Hammad!
+                <Typing words={typing}/>
               </div>
 
               <div className="position mb-5 text-capitalize">
