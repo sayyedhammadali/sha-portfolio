@@ -12,7 +12,7 @@ LiveSite Url: https://sayyedhammadali.github.io/sha-portfolio
 "scripts": {
   "deploy":"npm run build && gh-pages -d build"
 },
-"homepage": "https://sayyedhammadali.github.io/shaportfolio",
+"homepage": "https://sayyedhammadali.github.io/sha-portfolio",
 
 ```
 3. npm run deploy
