@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import './App.scss';
 
-import LandingBlock from './components/LandingBlock';
+import Landing from './components/landing/Landing';
+import About from "./components/about/About";
+import Portfolio from "./components/portfolio/Portfolio";
+import Footer from "./components/footer/Footer";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <LandingBlock/>
+        <Landing/>
+        <About/>
+        <Portfolio/>
+        <Footer/>
       </div>
     );
   }
