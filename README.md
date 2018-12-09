@@ -10,9 +10,21 @@ LiveSite Url: https://sayyedhammadali.github.io/sha-portfolio
 ```
 
 "scripts": {
-  "deploy":"npm run build && gh-pages -d build"
+  "deploy":"yarn run build && gh-pages -d build"
 },
 "homepage": "https://sayyedhammadali.github.io/sha-portfolio",
 
 ```
-3. npm run deploy
+
+For Custom Domain
+
+```
+
+"scripts": {
+  "deploy":"yarn run build && gh-pages -d build"
+},
+"homepage": "https://<custom_domain>",
+
+```
+
+3. yarn run deploy

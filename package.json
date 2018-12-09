@@ -2,7 +2,7 @@
   "name": "shaportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sayyedhammadali.github.io/sha-portfolio",
+  "homepage": "https://sayyedhammadali.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.10.0",
