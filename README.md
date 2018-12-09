@@ -1,6 +1,6 @@
 # SHA Portfolio
 
-LiveSite Url: https://sayyedhammadali.github.io/shaportfolio
+LiveSite Url: https://sayyedhammadali.github.io/sha-portfolio
 
 ## Configuration
 
