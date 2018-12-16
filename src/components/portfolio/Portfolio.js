@@ -5,7 +5,6 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="container-fluid" id="portfolio">
-        <h1>Portfolio</h1>
       </div>
     );
   }

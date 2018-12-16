@@ -20,15 +20,10 @@ class Landing extends Component {
                 full stack developer
               </h5>
               <h3 className="skills">
-                <i className="fab fa-html5 px-2"></i>
                 <i className="fab fa-drupal px-2"></i>
-                <i className="fab fa-npm px-2"></i>
                 <i className="fab fa-node px-2"></i>
                 <i className="fab fa-react px-2"></i>
-                <i className="fab fa-linux px-2"></i>
-                <i className="fab fa-css3-alt px-2"></i>
                 <i className="fab fa-php px-2"></i>
-                <i className="fas fa-code-branch px-2"></i>
               </h3>
 
             </div>
