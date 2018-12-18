@@ -16,7 +16,7 @@ class Landing extends Component {
               <h1 className="headline pb-2 font-weight-light">
                 <Typing words={typing}/>
               </h1>
-              <h5 className="position pb-5 text-capitalize font-weight-bolder">
+              <h5 className="position pb-3 text-capitalize font-weight-bolder">
                 full stack developer
               </h5>
               <h3 className="skills">
